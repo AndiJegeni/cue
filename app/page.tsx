@@ -1,12 +1,12 @@
 "use client"
 
+import React from 'react'
 import SearchInterface from "@/components/search-interface"
 import LibraryInterface from "@/components/library-interface"
 import Sidebar from "@/components/sidebar"
 import { ThemeProvider } from "@/components/theme-provider"
-import { createClient, User, Session } from "@supabase/supabase-js"
+import { createClient, User } from "@supabase/supabase-js"
 import { useState, useEffect } from 'react';
-
 
 // Supabase Configuration
 const supabaseUrl = 'https://qrvafrcngfgsnablldit.supabase.co'
